@@ -6,8 +6,9 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # Load model
-model = joblib.load("model.pkl")
-vectorizer = joblib.load("vector.pkl")
+model = joblib.load("model .pkl")
+vectorizer = joblib.load("vector .pkl")
+
 
 # Download NLTK data
 nltk.download("stopwords", quiet=True)
